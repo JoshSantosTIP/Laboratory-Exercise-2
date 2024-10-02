@@ -12,7 +12,7 @@ public class BubbleSort {
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
 
-                    // Print the array after each swap
+                   
                     System.out.println("\nIteration: " + iteration++ + "" );
                     printArray(arr);
                 }
